@@ -5,7 +5,9 @@ module.exports = {
     },
     plugins: [
         "gatsby-plugin-image",
+        "gatsby-plugin-mdx",
         "gatsby-plugin-sharp",
+        "gatsby-remark-images",
         {
       resolve: "gatsby-source-filesystem",
       options: {
