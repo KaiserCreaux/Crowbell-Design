@@ -6,7 +6,15 @@ import Layout from '../components/layout'
 const AboutPage = () => {
   return (
     <Layout pageTitle="About Me">
-      <p>Hi there! I'm the proud creator of this site, which I built with Gatsby.</p>
+      <p>About Todd
+I'm a freelance web developer looking for an opportunity!
+
+I am fortunate to have had the opportunity to build hands-on knowledge of development, design, and marketing.
+
+
+ I scan the world with a UX eye, thinking about how a falafel stand can be better designed. I have an active GitHub.
+As a freelance developer, I've also done plenty of design work. I'm great with Illustrator, Photoshop and GIMP.
+</p>
     </Layout>
   )
 }
