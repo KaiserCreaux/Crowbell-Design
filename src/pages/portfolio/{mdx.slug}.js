@@ -13,11 +13,11 @@ const PortfolioPost = ({ data }) => {
         image={image}
         alt={data.mdx.frontmatter.hero_image_alt}
       />
-      <p>
-        <a href={data.mdx.frontmatter.hero_image_credit_link}>
+
+        <p>
         {data.mdx.frontmatter.hero_image_credit_text}
-        </a>
-      </p>
+        </p>
+
       <MDXRenderer>
           {data.mdx.body}
       </MDXRenderer>
