@@ -13,7 +13,7 @@ const PortfolioPage = ({ data }) => {
                 {node.frontmatter.title}
               </Link>
             </h2>
-          <p>Posted: {node.frontmatter.date}</p>
+          <p>{node.frontmatter.date}</p>
           </article>
         ))
       }
@@ -26,7 +26,7 @@ export const query = graphql`
     allMdx(sort: {fields: frontmatter___date, order: DESC}) {
       nodes {
         frontmatter {
-          date(formatString: "MMMM D, YYYY")
+          date(formatString: "YYYY")
           title
         }
         id
