@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link } from "gatsby"
+import { StaticImage } from 'gatsby-plugin-image'
 
 // styles
 const pageStyles = {
@@ -30,12 +31,19 @@ const NotFoundPage = () => {
     <main style={pageStyles}>
       <title>Not found</title>
       <h1 style={headingStyles}>Page not found</h1>
+      <StaticImage
+          width={300}
+          height={300}
+          alt="Cyberpunk 2077 Mr. Bean"
+          src="../images/404.png"
+        />
       <p style={paragraphStyles}>
+
         Sorry{" "}
         <span role="img" aria-label="Pensive emoji">
           😔
         </span>{" "}
-        we couldn’t find what you were looking for.
+        Our best nethacker couldn’t find what you were looking for.
         <br />
         {process.env.NODE_ENV === "development" ? (
           <>

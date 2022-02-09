@@ -14,9 +14,9 @@ const PortfolioPost = ({ data }) => {
         alt={data.mdx.frontmatter.hero_image_alt}
       />
 
-        <p>
-        {data.mdx.frontmatter.hero_image_credit_text}
-        </p>
+        <h3>{data.mdx.frontmatter.project_abstract}</h3>
+        <h4>Project roles: {data.mdx.frontmatter.project_roles}</h4>
+        <h4>Project deliverable: {data.mdx.frontmatter.project_deliverable}</h4>
 
       <MDXRenderer>
           {data.mdx.body}
@@ -31,13 +31,14 @@ export const query = graphql`
         title
         date(formatString: "YYYY")
         hero_image_alt
-        hero_image_credit_link
-        hero_image_credit_text
         hero_image {
           childImageSharp {
             gatsbyImageData
           }
         }
+        project_abstract
+        project_deliverable
+        project_roles
       }
       body
     }

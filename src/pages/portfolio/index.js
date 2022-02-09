@@ -14,6 +14,7 @@ const PortfolioPage = ({ data }) => {
               </Link>
             </h2>
           <p>{node.frontmatter.date}</p>
+          <h5>{node.frontmatter.project_abstract}</h5>
           </article>
         ))
       }
@@ -28,6 +29,7 @@ export const query = graphql`
         frontmatter {
           date(formatString: "YYYY")
           title
+          project_abstract
         }
         id
         slug

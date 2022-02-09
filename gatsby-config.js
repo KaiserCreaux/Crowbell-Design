@@ -8,13 +8,33 @@ module.exports = {
         "gatsby-plugin-mdx",
         "gatsby-plugin-sharp",
         "gatsby-transformer-sharp",
-        "gatsby-remark-images",
+        `gatsby-remark-images`,
         {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: `portfolio`,
-        path: `${__dirname}/portfolio`,
+          resolve: `gatsby-plugin-mdx`,
+          options: {
+            gatsbyRemarkPlugins: [
+              {
+                resolve: `gatsby-remark-images`,
+                options: {
+                  maxWidth: 1200,
+                },
+              },
+            ],
+          },
+        },
+      {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `portfolio`,
+      path: `${__dirname}/portfolio`,
       }
+      },
+      {
+    resolve: "gatsby-source-filesystem",
+    options: {
+      name: `src`,
+      path: `${__dirname}/src`,
+    }
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
