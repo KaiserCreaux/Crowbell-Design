@@ -3,6 +3,7 @@ module.exports = {
         siteUrl: `https://crowbelldesign.gatsbyjs.io/`,
         title: "Crowbell Design",
     },
+
     plugins: [
         "gatsby-plugin-image",
         "gatsby-plugin-mdx",
@@ -22,19 +23,28 @@ module.exports = {
             ],
           },
         },
-      {
-    resolve: "gatsby-source-filesystem",
-    options: {
-      name: `portfolio`,
-      path: `${__dirname}/portfolio`,
-      }
-      },
-      {
-    resolve: "gatsby-source-filesystem",
-    options: {
-      name: `src`,
-      path: `${__dirname}/src`,
-    }
-    },
-    ]
+        {
+          resolve: "gatsby-source-filesystem",
+            options: {
+              name: `portfolio`,
+              path: `${__dirname}/portfolio`,
+              }
+            },
+            {
+          resolve: "gatsby-source-filesystem",
+            options: {
+              name: `src`,
+              path: `${__dirname}/src`,
+            },
+        },
+        {
+          resolve: "gatsby-plugin-web-font-loader",
+            options: {
+              google: {
+                families: ['Chivo']
+              }
+              //import "@fontsource/chivo", // Defaults to weight 400.
+            }
+        },
+        ]
 }

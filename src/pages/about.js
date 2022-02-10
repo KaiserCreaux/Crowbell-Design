@@ -11,6 +11,8 @@ I'm a freelance web developer looking for an opportunity!
 
 I am fortunate to have had the opportunity to build hands-on knowledge of development, design, and marketing.
 
+Skills:
+lalallaa
 
  I scan the world with a UX eye, thinking about how a falafel stand can be better designed. I have an active GitHub.
 As a freelance developer, I've also done plenty of design work. I'm great with Illustrator, Photoshop and GIMP.
