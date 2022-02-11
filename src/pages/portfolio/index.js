@@ -9,11 +9,11 @@ const PortfolioPage = ({ data }) => {
       {
         data.allMdx.nodes.map((node) => (
           <article className={portfolioArticle} key={node.id}>
-              <h2>
+              <h3>
                 <Link to={`/portfolio/${node.slug}`}>
                   {node.frontmatter.title}
                 </Link>
-              </h2>
+              </h3>
               <p>{node.frontmatter.date}: {node.frontmatter.project_roles}</p>
               <p>{node.frontmatter.project_abstract}</p>
           </article>

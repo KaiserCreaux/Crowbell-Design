@@ -4,7 +4,6 @@ import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage,} from 'gatsby-plugin-image'
 import { GatsbyRemarkInstagramEmbed, GatsbyRemarkResponsiveIframe } from 'gatsby-transformer-remark'
 import Layout from '../../components/layout'
-import ExternalLink from '../../components/ExternalLink'
 
 const PortfolioPost = ({ data }) => {
   const image = getImage(data.mdx.frontmatter.hero_image)
