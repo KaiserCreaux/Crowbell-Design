@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-        <Layout pageTitle="Home Page">
+        <Layout pageTitle="Welcome to Crowbell Design!">
       <h2>Be Heard</h2>
       <p>This site is built with Gatsby.js! It's fantastic stuff.</p>
       <StaticImage alt="Feeding a cat spaghetti" src="https://i.imgur.com/m9HOoFn.jpg" />
