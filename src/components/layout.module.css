@@ -109,6 +109,8 @@ textarea {
   display: flex;
   flex-direction: column;
   padding: 1em;
+  margin-top: 1em;
+  background-image: linear-gradient(#eaebed 0%, #ffffff 2%);
 }
 
 .footerText {

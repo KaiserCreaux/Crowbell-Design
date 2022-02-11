@@ -8,7 +8,6 @@ import {
   navLinkItem,
   navLinkText,
   siteTitle,
-  portfolioArticle,
   feedbackInput,
   footer,
   footerText,
@@ -54,7 +53,7 @@ const Layout = ({ pageTitle, children }) => {
     <a href="https://github.com/KaiserCreaux" target="_blank">GitHub</a><span> | </span>
     <a href="https://www.instagram.com/kaisercreaux/" target="_blank">Instagram</a>
     </div>
-      <form
+      <form id="contactForm"
       action="https://formspree.io/f/xoqregnk"
       method="POST"
       >

@@ -1,0 +1,21 @@
+---
+title: "VoxSnap AudioHub Newsletter"
+date: "2019-10-06"
+hero_image: "./voxsnapHero.png"
+hero_image_alt: "Screenshot of the AudioHub newsletter "
+project_abstract: "HTML email template for a newsletter"
+project_roles: "Developer, Graphic Designer, Marketing Lead"
+project_deliverable: "HTML eMail Template"
+---
+As a contract marketer for VoxSnap, I built a template for a monthly newsletter showcasing new podcasts on VoxSnap's AudioHub library.
+As a contract marketer for VoxSnap, I built a template for a monthly newsletter showcasing new podcasts on VoxSnap's AudioHub library.
+
+Another core task was creating daily social media posts, including composing copy, creating audiovisual assets, and scheduling across all VoxSnap's social media accounts.
+![Instagram screenshot of It's How you React to Failure that Matters: Ego is the Enemy](../../src/images/voxsnap/egoenemy.png) ![Instagram screenshot of How to Raise a Seed Round](../../src/images/voxsnap/seedround.png)
+
+I also wrote manuals for marketing interns; [download an example pdf here](../../src/docs/VoxSnapEditorialStyleGuide.pdf).
+
+In addition, I performed market research, built both social media and SEO strategy, and established/monitored KPIs.
+
+Image from [VoxSnap audioblog article](https://article.voxsnap.com/svb/the-startup-metrics-you-need-to-master-first)
+by [Silicon Valley Bank](https://www.svb.com)
