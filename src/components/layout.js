@@ -71,6 +71,7 @@ const Layout = ({ pageTitle, children }) => {
         <button type="submit">Get in touch</button>
       </form>
     <div className={footerText}>
+    <p>Site build with Gatsby. Definitely a fun tool, check it out: <a href="https://gatsby.js" target="_blank">Gatsby.js</a></p>
       <p>Copyright 2022 Crowbell Design</p>
       </div>
     </footer>
