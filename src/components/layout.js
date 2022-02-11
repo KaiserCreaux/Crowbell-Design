@@ -47,7 +47,7 @@ const Layout = ({ pageTitle, children }) => {
     </div>
     <footer className={footer}>
     <div className={footerText}>
-    <a href="www.linkedin.com/in/todd-campbell-crow-40b50727" target="_blank">LinkedIn</a><span> | </span>
+    <a href="https://www.linkedin.com/in/todd-campbell-crow-40b50727" target="_blank">LinkedIn</a><span> | </span>
     <a href="https://github.com/KaiserCreaux" target="_blank">GitHub</a><span> | </span>
     <a href="https://www.instagram.com/kaisercreaux/" target="_blank">Instagram</a>
     </div>

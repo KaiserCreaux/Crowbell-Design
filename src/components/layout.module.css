@@ -18,6 +18,10 @@
 	/*background: #fff url(../images/bartoszkosowski.jpg) no-repeat center left; ADD AN IMAGE TO THE H1*/
 }
 
+.emphasis {
+  font-style: italic;
+}
+
 .heading {
 	margin: 1em 0 0.5em 0;
 	font-weight: 300;
@@ -26,14 +30,16 @@
 	font-family: chivo, sans-serif;
 }
 
+img {
+  border: 1px solid #eaebed;
+}
+
 h3 {
 	margin: 1em 0 0.5em 0;
 	font-weight: 300;
 	font-family: chivo, sans-serif;
-	text-shadow: 0 -1px 1px rgba(0,0,0,0.4);
 	font-size: 2rem;
 	color: #003844;
-	border-bottom: 1px solid rgba(53,86,129, 0.3);
 }
 
 p, li, label {

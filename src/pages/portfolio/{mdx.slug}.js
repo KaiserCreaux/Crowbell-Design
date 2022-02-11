@@ -16,8 +16,8 @@ const PortfolioPost = ({ data }) => {
       />
 
         <h3>{data.mdx.frontmatter.project_abstract}</h3>
-        <h4>Project roles: {data.mdx.frontmatter.project_roles}</h4>
-        <h4>Project deliverable: {data.mdx.frontmatter.project_deliverable}</h4>
+        <p>Project roles: {data.mdx.frontmatter.project_roles}</p>
+        <p>Project deliverable: {data.mdx.frontmatter.project_deliverable}</p>
 
       <MDXRenderer>
           {data.mdx.body}
