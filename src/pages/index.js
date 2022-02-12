@@ -18,8 +18,8 @@ const IndexPage = () => {
       <h3>What's next?</h3>
       <p>My next step is joining a team--I am proud of what I've done, but I know how much more there is for me to learn.</p>
 
-      <p>What about when I'm not coding, writing procedure docs, or talking with clients? You'll find me either singing my toddler <a href="https://www.youtube.com/watch?v=RHMLL8oK7dg" target="_blank">lullabyes</a>, reading about history, or thinking up bad puns. I also deeply love immersive games, <a href="https://photos.app.goo.gl/umvuL5vVZ1VFgMZW7" target="_blank">hiking</a>, and cooking.</p>
-      <p><a href="https://drive.google.com/file/d/1aRjpu4mCInhH8qXpqzNzDfaeuV8cIwZI/view?usp=sharing" target="_blank">My Resume</a></p>
+      <p>What about when I'm not coding, writing procedure docs, or talking with clients? You'll find me either singing my toddler <a href="https://www.youtube.com/watch?v=RHMLL8oK7dg"  rel="noreferrer" target="_blank">lullabyes</a>, reading about history, or thinking up bad puns. I also deeply love immersive games, <a href="https://photos.app.goo.gl/umvuL5vVZ1VFgMZW7" rel="noreferrer" target="_blank">hiking</a>, and cooking.</p>
+      <p><a href="https://drive.google.com/file/d/1aRjpu4mCInhH8qXpqzNzDfaeuV8cIwZI/view?usp=sharing" target="_blank"  rel="noreferrer">My Resume</a></p>
       <p>Looking for a developer to code up pixel-perfect emails? <a href="#contactForm">Reach out and tell me about your team!</a></p>
       <StaticImage alt="A portrait of Todd" src="../images/about/portrait.png" />
     </Layout>

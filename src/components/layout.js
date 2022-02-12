@@ -1,7 +1,6 @@
 import * as React from 'react'
 import { Link, useStaticQuery, graphql } from 'gatsby'
 import {
-  bearTrap,
   container,
   heading,
   navLinks,
@@ -47,31 +46,30 @@ const Layout = ({ pageTitle, children }) => {
     </div>
     <footer className={footer}>
     <div className={footerText}>
-    <a href="https://www.linkedin.com/in/todd-campbell-crow-40b50727" target="_blank">LinkedIn</a><span> | </span>
-    <a href="https://github.com/KaiserCreaux" target="_blank">GitHub</a><span> | </span>
-    <a href="https://www.instagram.com/kaisercreaux/" target="_blank">Instagram</a>
+    <a href="https://www.linkedin.com/in/todd-campbell-crow-40b50727" rel="noreferrer" target="_blank">LinkedIn</a><span> | </span>
+    <a href="https://github.com/KaiserCreaux" rel="noreferrer" target="_blank">GitHub</a><span> | </span>
+    <a href="https://www.instagram.com/kaisercreaux/" rel="noreferrer" target="_blank">Instagram</a>
     </div>
       <form id="contactForm"
       action="https://formspree.io/f/xoqregnk"
       method="POST"
       >
-        <label className={bearTrap} type="email" name="_gotcha"></label>
-        <label>
+        <label for="formName">
           Your name:
-          <input type="text" className={feedbackInput} name="name"/>
+          <input id="formName" type="text" className={feedbackInput} name="name"/>
         </label>
-        <label>
+        <label for="">
           Your email:
-          <input type="email" className={feedbackInput} name="_replyto"/>
+          <input id="formEmail" type="email" className={feedbackInput} name="_replyto"/>
         </label>
-        <label>
+        <label for="formMessage">
           What's up?
-          <textarea name="message" className={feedbackInput} ></textarea>
+          <textarea id="formMessage" name="message" className={feedbackInput} ></textarea>
         </label>
         <button type="submit">Get in touch</button>
       </form>
     <div className={footerText}>
-    <p>Site build with Gatsby. Definitely a fun tool, check it out: <a href="https://gatsby.js" target="_blank">Gatsby.js</a></p>
+    <p>Site build with Gatsby. Definitely a fun tool, check it out: <a href="https://gatsbyjs.com" target="_blank" rel="noreferrer">Gatsbyjs.com</a></p>
       <p>Copyright 2022 Crowbell Design</p>
       </div>
     </footer>

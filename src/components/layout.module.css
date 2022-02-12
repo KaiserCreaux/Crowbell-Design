@@ -1,8 +1,3 @@
-/* honeypot to stop spam in my contact form */
-.bearTrap {
-  display: none;
-}
-
 .container {
   margin: auto;
   max-width: 500px;

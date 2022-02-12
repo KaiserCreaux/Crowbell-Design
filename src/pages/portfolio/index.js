@@ -24,11 +24,11 @@ const PortfolioPage = ({ data }) => {
 }
 
 export const query = graphql`
-  query {
-    allMdx(sort: {fields: frontmatter___date, order: DESC}) {
-      nodes {
-        frontmatter {
-          date(formatString: "YYYY")
+query {
+  allMdx( sort: { fields: [frontmatter___date], order: DESC }){
+    nodes {
+      frontmatter {
+          date
           title
           project_abstract
           project_roles

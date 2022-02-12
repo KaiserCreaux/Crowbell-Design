@@ -2,7 +2,6 @@ import * as React from 'react'
 import { graphql } from 'gatsby'
 import { MDXRenderer } from 'gatsby-plugin-mdx'
 import { GatsbyImage, getImage,} from 'gatsby-plugin-image'
-import { GatsbyRemarkInstagramEmbed, GatsbyRemarkResponsiveIframe } from 'gatsby-transformer-remark'
 import Layout from '../../components/layout'
 
 const PortfolioPost = ({ data }) => {
@@ -30,7 +29,7 @@ export const query = graphql`
     mdx(id: {eq: $id}) {
       frontmatter {
         title
-        date(formatString: "YYYY")
+        date
         hero_image_alt
         hero_image {
           childImageSharp {
