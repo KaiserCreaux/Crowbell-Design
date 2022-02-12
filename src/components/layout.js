@@ -69,7 +69,7 @@ const Layout = ({ pageTitle, children }) => {
         <button type="submit">Get in touch</button>
       </form>
     <div className={footerText}>
-    <p>Site build with Gatsby. Definitely a fun tool, check it out: <a href="https://gatsbyjs.com" target="_blank" rel="noreferrer">Gatsbyjs.com</a></p>
+    <p>Site built with Gatsby. Definitely a fun tool, check it out: <a href="https://gatsbyjs.com" target="_blank" rel="noreferrer">Gatsbyjs.com</a></p>
       <p>Copyright 2022 Crowbell Design</p>
       </div>
     </footer>
