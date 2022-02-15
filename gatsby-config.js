@@ -6,18 +6,30 @@ module.exports = {
 
     plugins: [
       {
-        resolve: `gatsby-plugin-google-gtag`,
-          options: {
-            // You can add multiple tracking ids and a pageview event will be fired for all of them.
-            trackingIds: [
-              "GTM-T3DL573", // Google Tag Manager
-              "G-7304ME8VFM", // Google Analytics
-            ],
-            head: true,
-            anonymize: true,
-
-        },
+    resolve: `gatsby-plugin-google-gtag`,
+    options: {
+      // You can add multiple tracking ids and a pageview event will be fired for all of them.
+      trackingIds: [
+        "G-7304ME8VFM", // Google Analytics / GA
+      ],
+      // This object gets passed directly to the gtag config command
+      // This config will be shared across all trackingIds
+      gtagConfig: {
+        anonymize_ip: true,
+        cookie_expires: 0,
+        send_page_view: true // default appears to be false.
       },
+      // This object is used for configuration specific to this plugin
+      pluginConfig: {
+        // Puts tracking script in the head instead of the body
+        head: false,
+        // Setting this parameter is also optional
+        respectDNT: true,
+        // Avoids sending pageview hits from custom paths
+        exclude: ["/preview/**", "/do-not-track/me/too/"],
+      },
+    },
+  },
         "gatsby-plugin-image",
         "gatsby-plugin-mdx",
         "gatsby-plugin-sharp",
